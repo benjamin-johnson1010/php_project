@@ -1,6 +1,8 @@
 <?php
 
-include("inc/header.php"); ?>
+include("inc/header.php");
+include("inc/connection.php")
+?>
 <h1>Hello</h1>
 <form method="post">
 <input type="text" name="username" value=""><br>
